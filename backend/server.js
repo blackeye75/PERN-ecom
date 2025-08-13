@@ -15,6 +15,15 @@ app.use(morgan('dev'));
 
 app.use('/api/products',productRoutes);
 
+async function initDB(){
+  try {
+    
+  } catch (error) {
+    console.log(`Error initializing database: ${error.message}`);
+    
+  }
+}
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
