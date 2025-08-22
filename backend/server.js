@@ -19,7 +19,7 @@ async function initDB(){
   try {
     
   } catch (error) {
-    console.log(`Error initializing database: ${error.message}`);
+    console.log(`Error initializing databa: ${error.message}`);
     
   }
 }
